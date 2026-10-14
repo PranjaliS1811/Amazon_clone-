@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazon-Emblem.jpg");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/* box 2 */
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color:#cccccc ;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+}
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+     background: color #febd68; 
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.search-input{
+    width:100% ;
+    font-size:1rem ;
+     border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:  #febd68; 
+    border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color:black ;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* box 4 */
+span{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 6 */
+.nav-cart i{
+    font-size: 30px;
+
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    width: 10%;
+}
+
+.panel-ops {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops p {
+    margin: 0;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+
+.product{
+    display: flex;
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.product img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product02 img{
+    height:300px ;
+    width:600px ;
+    border-radius: 10px;
+}
+.product03 img{
+    width: 350px;
+}
+.next-product{
+    background-color: gray;
+    display: flex;
+   margin-top: 5px;
+   justify-content: space-evenly;
+   border-radius: 10px;
+}
+.product04 img{
+   height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product05 img{
+   height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product06 img{
+   height: 300px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product {
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.product01:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+.product02:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+.product03:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+.product04:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+.product05:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+.product06:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgb(235, 219, 38);
+}
+
+.panel-ops p {
+    padding: 5px 10px;
+    transition: 0.2s ease;
+}
+
+.panel-ops p:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgba(215, 183, 39, 0.7);
+    cursor: pointer;
+}
+.footer-line{
+    height: 50px;
+    width: 100%;
+    background-color: #febd68;
+    color: black;
+    text-align: center;
+    justify-self: unset;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer-line a{
+    text-underline-position: below;
+    color: black;
+}
+ .footer-line a:hover {
+    color: red;
+    font-size: 25px;
+}
